@@ -1,0 +1,524 @@
+[
+	{
+		"minimum": "71",
+		"maximum": "74",
+		"meanAverage": "72",
+		"dateTime": "2018-03-28T13:46:00"
+	},
+	{
+		"minimum": "57",
+		"maximum": "87",
+		"meanAverage": "71",
+		"dateTime": "2018-03-28T18:00:01"
+	},
+	{
+		"minimum": "54",
+		"maximum": "61",
+		"meanAverage": "57",
+		"dateTime": "2018-03-29T18:04:00"
+	},
+	{
+		"minimum": "52",
+		"maximum": "52",
+		"meanAverage": "52",
+		"dateTime": "2018-03-30T03:49:00"
+	},
+	{
+		"minimum": "56",
+		"maximum": "61",
+		"meanAverage": "58",
+		"dateTime": "2018-03-31T05:43:00"
+	},
+	{
+		"minimum": "64",
+		"maximum": "68",
+		"meanAverage": "66",
+		"dateTime": "2018-04-01T21:34:00"
+	},
+	{
+		"minimum": "57",
+		"maximum": "58",
+		"meanAverage": "57",
+		"dateTime": "2018-04-02T19:48:00"
+	},
+	{
+		"minimum": "57",
+		"maximum": "59",
+		"meanAverage": "58",
+		"dateTime": "2018-04-03T08:01:00"
+	},
+	{
+		"minimum": "71",
+		"maximum": "74",
+		"meanAverage": "72",
+		"dateTime": "2018-04-04T09:54:00"
+	},
+	{
+		"minimum": "75",
+		"maximum": "77",
+		"meanAverage": "76",
+		"dateTime": "2018-04-05T12:54:00"
+	},
+	{
+		"minimum": "90",
+		"maximum": "97",
+		"meanAverage": "93",
+		"dateTime": "2018-04-06T19:02:00"
+	},
+	{
+		"minimum": "101",
+		"maximum": "102",
+		"meanAverage": "101",
+		"dateTime": "2018-04-07T02:34:00"
+	},
+	{
+		"minimum": "108",
+		"maximum": "112",
+		"meanAverage": "110",
+		"dateTime": "2018-04-08T03:01:00"
+	},
+	{
+		"minimum": "119",
+		"maximum": "126",
+		"meanAverage": "122",
+		"dateTime": "2018-04-09T17:54:00"
+	},
+	{
+		"minimum": "105",
+		"maximum": "110",
+		"meanAverage": "107",
+		"dateTime": "2018-04-10T18:06:00"
+	},
+	{
+		"minimum": "97",
+		"maximum": "103",
+		"meanAverage": "100",
+		"dateTime": "2018-04-11T16:45:00"
+	},
+	{
+		"minimum": "97",
+		"maximum": "103",
+		"meanAverage": "100",
+		"dateTime": "2018-04-12T15:07:00"
+	},
+	{
+		"minimum": "95",
+		"maximum": "101",
+		"meanAverage": "98",
+		"dateTime": "2018-04-13T03:24:00"
+	},
+	{
+		"minimum": "98",
+		"maximum": "100",
+		"meanAverage": "99",
+		"dateTime": "2018-04-14T10:36:00"
+	},
+	{
+		"minimum": "94",
+		"maximum": "95",
+		"meanAverage": "94",
+		"dateTime": "2018-04-15T08:10:00"
+	},
+	{
+		"minimum": "95",
+		"maximum": "100",
+		"meanAverage": "97",
+		"dateTime": "2018-04-16T02:57:00"
+	},
+	{
+		"minimum": "96",
+		"maximum": "103",
+		"meanAverage": "99",
+		"dateTime": "2018-04-17T08:15:00"
+	},
+	{
+		"minimum": "105",
+		"maximum": "112",
+		"meanAverage": "108",
+		"dateTime": "2018-04-18T15:18:00"
+	},
+	{
+		"minimum": "116",
+		"maximum": "116",
+		"meanAverage": "116",
+		"dateTime": "2018-04-19T13:19:00"
+	},
+	{
+		"minimum": "125",
+		"maximum": "127",
+		"meanAverage": "126",
+		"dateTime": "2018-04-20T22:32:00"
+	},
+	{
+		"minimum": "120",
+		"maximum": "121",
+		"meanAverage": "120",
+		"dateTime": "2018-04-21T09:15:00"
+	},
+	{
+		"minimum": "119",
+		"maximum": "126",
+		"meanAverage": "122",
+		"dateTime": "2018-04-22T15:55:00"
+	},
+	{
+		"minimum": "133",
+		"maximum": "136",
+		"meanAverage": "134",
+		"dateTime": "2018-04-23T01:56:00"
+	},
+	{
+		"minimum": "140",
+		"maximum": "144",
+		"meanAverage": "142",
+		"dateTime": "2018-04-24T03:47:00"
+	},
+	{
+		"minimum": "153",
+		"maximum": "153",
+		"meanAverage": "153",
+		"dateTime": "2018-04-25T04:58:00"
+	},
+	{
+		"minimum": "164",
+		"maximum": "168",
+		"meanAverage": "166",
+		"dateTime": "2018-04-26T21:24:00"
+	},
+	{
+		"minimum": "169",
+		"maximum": "176",
+		"meanAverage": "172",
+		"dateTime": "2018-04-27T00:22:00"
+	},
+	{
+		"minimum": "156",
+		"maximum": "157",
+		"meanAverage": "156",
+		"dateTime": "2018-04-28T15:46:00"
+	},
+	{
+		"minimum": "150",
+		"maximum": "153",
+		"meanAverage": "151",
+		"dateTime": "2018-04-29T12:52:00"
+	},
+	{
+		"minimum": "141",
+		"maximum": "147",
+		"meanAverage": "144",
+		"dateTime": "2018-04-30T03:55:00"
+	},
+	{
+		"minimum": "151",
+		"maximum": "152",
+		"meanAverage": "151",
+		"dateTime": "2018-05-01T09:48:00"
+	},
+	{
+		"minimum": "152",
+		"maximum": "152",
+		"meanAverage": "152",
+		"dateTime": "2018-05-02T09:01:00"
+	},
+	{
+		"minimum": "149",
+		"maximum": "156",
+		"meanAverage": "152",
+		"dateTime": "2018-05-03T10:14:00"
+	},
+	{
+		"minimum": "142",
+		"maximum": "149",
+		"meanAverage": "145",
+		"dateTime": "2018-05-04T01:26:00"
+	},
+	{
+		"minimum": "149",
+		"maximum": "150",
+		"meanAverage": "149",
+		"dateTime": "2018-05-05T02:11:00"
+	},
+	{
+		"minimum": "135",
+		"maximum": "138",
+		"meanAverage": "136",
+		"dateTime": "2018-05-06T04:03:00"
+	},
+	{
+		"minimum": "133",
+		"maximum": "133",
+		"meanAverage": "133",
+		"dateTime": "2018-05-07T16:45:00"
+	},
+	{
+		"minimum": "144",
+		"maximum": "149",
+		"meanAverage": "146",
+		"dateTime": "2018-05-08T13:16:00"
+	},
+	{
+		"minimum": "138",
+		"maximum": "145",
+		"meanAverage": "141",
+		"dateTime": "2018-05-09T03:47:00"
+	},
+	{
+		"minimum": "150",
+		"maximum": "152",
+		"meanAverage": "151",
+		"dateTime": "2018-05-10T19:11:00"
+	},
+	{
+		"minimum": "146",
+		"maximum": "147",
+		"meanAverage": "146",
+		"dateTime": "2018-05-12T05:51:00"
+	},
+	{
+		"minimum": "145",
+		"maximum": "145",
+		"meanAverage": "145",
+		"dateTime": "2018-05-15T05:11:00"
+	},
+	{
+		"minimum": "155",
+		"maximum": "161",
+		"meanAverage": "158",
+		"dateTime": "2018-05-16T06:43:00"
+	},
+	{
+		"minimum": "158",
+		"maximum": "162",
+		"meanAverage": "160",
+		"dateTime": "2018-05-17T04:58:00"
+	},
+	{
+		"minimum": "150",
+		"maximum": "155",
+		"meanAverage": "152",
+		"dateTime": "2018-05-18T07:56:00"
+	},
+	{
+		"minimum": "135",
+		"maximum": "138",
+		"meanAverage": "136",
+		"dateTime": "2018-05-20T02:31:00"
+	},
+	{
+		"minimum": "133",
+		"maximum": "139",
+		"meanAverage": "136",
+		"dateTime": "2018-05-21T11:56:00"
+	},
+	{
+		"minimum": "136",
+		"maximum": "137",
+		"meanAverage": "136",
+		"dateTime": "2018-05-22T13:53:00"
+	},
+	{
+		"minimum": "132",
+		"maximum": "132",
+		"meanAverage": "132",
+		"dateTime": "2018-05-24T21:15:00"
+	},
+	{
+		"minimum": "122",
+		"maximum": "128",
+		"meanAverage": "125",
+		"dateTime": "2018-05-27T02:21:00"
+	},
+	{
+		"minimum": "123",
+		"maximum": "124",
+		"meanAverage": "123",
+		"dateTime": "2018-05-28T13:49:00"
+	},
+	{
+		"minimum": "110",
+		"maximum": "114",
+		"meanAverage": "112",
+		"dateTime": "2018-05-29T08:51:00"
+	},
+	{
+		"minimum": "98",
+		"maximum": "105",
+		"meanAverage": "101",
+		"dateTime": "2018-05-30T21:58:00"
+	},
+	{
+		"minimum": "104",
+		"maximum": "107",
+		"meanAverage": "105",
+		"dateTime": "2018-05-31T05:53:00"
+	},
+	{
+		"minimum": "119",
+		"maximum": "121",
+		"meanAverage": "120",
+		"dateTime": "2018-06-01T08:47:00"
+	},
+	{
+		"minimum": "126",
+		"maximum": "128",
+		"meanAverage": "127",
+		"dateTime": "2018-06-02T17:28:00"
+	},
+	{
+		"minimum": "117",
+		"maximum": "121",
+		"meanAverage": "119",
+		"dateTime": "2018-06-03T06:03:00"
+	},
+	{
+		"minimum": "109",
+		"maximum": "113",
+		"meanAverage": "111",
+		"dateTime": "2018-06-04T13:43:00"
+	},
+	{
+		"minimum": "115",
+		"maximum": "121",
+		"meanAverage": "118",
+		"dateTime": "2018-06-05T04:58:00"
+	},
+	{
+		"minimum": "114",
+		"maximum": "118",
+		"meanAverage": "116",
+		"dateTime": "2018-06-06T09:00:00"
+	},
+	{
+		"minimum": "113",
+		"maximum": "114",
+		"meanAverage": "113",
+		"dateTime": "2018-06-07T15:41:00"
+	},
+	{
+		"minimum": "104",
+		"maximum": "107",
+		"meanAverage": "105",
+		"dateTime": "2018-06-08T02:56:00"
+	},
+	{
+		"minimum": "102",
+		"maximum": "108",
+		"meanAverage": "105",
+		"dateTime": "2018-06-09T17:37:00"
+	},
+	{
+		"minimum": "114",
+		"maximum": "115",
+		"meanAverage": "114",
+		"dateTime": "2018-06-10T16:36:00"
+	},
+	{
+		"minimum": "119",
+		"maximum": "120",
+		"meanAverage": "119",
+		"dateTime": "2018-06-11T05:55:00"
+	},
+	{
+		"minimum": "108",
+		"maximum": "114",
+		"meanAverage": "111",
+		"dateTime": "2018-06-12T01:19:00"
+	},
+	{
+		"minimum": "121",
+		"maximum": "126",
+		"meanAverage": "123",
+		"dateTime": "2018-06-13T01:02:00"
+	},
+	{
+		"minimum": "121",
+		"maximum": "124",
+		"meanAverage": "122",
+		"dateTime": "2018-06-14T11:33:00"
+	},
+	{
+		"minimum": "124",
+		"maximum": "124",
+		"meanAverage": "124",
+		"dateTime": "2018-06-15T13:42:00"
+	},
+	{
+		"minimum": "122",
+		"maximum": "124",
+		"meanAverage": "123",
+		"dateTime": "2018-06-16T19:28:00"
+	},
+	{
+		"minimum": "111",
+		"maximum": "118",
+		"meanAverage": "114",
+		"dateTime": "2018-06-17T11:00:00"
+	},
+	{
+		"minimum": "99",
+		"maximum": "106",
+		"meanAverage": "102",
+		"dateTime": "2018-06-18T01:02:00"
+	},
+	{
+		"minimum": "92",
+		"maximum": "97",
+		"meanAverage": "94",
+		"dateTime": "2018-06-19T15:48:00"
+	},
+	{
+		"minimum": "81",
+		"maximum": "88",
+		"meanAverage": "84",
+		"dateTime": "2018-06-20T01:23:00"
+	},
+	{
+		"minimum": "70",
+		"maximum": "77",
+		"meanAverage": "73",
+		"dateTime": "2018-06-21T15:02:00"
+	},
+	{
+		"minimum": "81",
+		"maximum": "82",
+		"meanAverage": "81",
+		"dateTime": "2018-06-22T08:30:00"
+	},
+	{
+		"minimum": "72",
+		"maximum": "74",
+		"meanAverage": "73",
+		"dateTime": "2018-06-23T02:40:00"
+	},
+	{
+		"minimum": "83",
+		"maximum": "85",
+		"meanAverage": "84",
+		"dateTime": "2018-06-24T09:45:00"
+	},
+	{
+		"minimum": "90",
+		"maximum": "90",
+		"meanAverage": "90",
+		"dateTime": "2018-06-25T02:23:00"
+	},
+	{
+		"minimum": "85",
+		"maximum": "88",
+		"meanAverage": "86",
+		"dateTime": "2018-06-26T22:49:00"
+	},
+	{
+		"minimum": "79",
+		"maximum": "83",
+		"meanAverage": "81",
+		"dateTime": "2018-06-27T08:20:00"
+	},
+	{
+		"minimum": "80",
+		"maximum": "81",
+		"meanAverage": "80",
+		"dateTime": "2018-06-28T01:51:00"
+	}
+]
