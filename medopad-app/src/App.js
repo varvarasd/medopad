@@ -19,14 +19,14 @@ class App extends Component {
     
     const data = this.state.data;
 
-    const dataRow = data.map((res, index) => {
+    const dataRow = data.map(({minimum, maximum, meanAverage, dateTime}, index) => {
               return ( 
                 
                   <tr key={index}>
-                    <td>{res.minimum}</td>
-                    <td>{res.maximum}</td>
-                    <td>{res.meanAverage}</td>
-                    <td>{res.dateTime}</td>
+                    <td>{minimum}</td>
+                    <td>{maximum}</td>
+                    <td>{meanAverage}</td>
+                    <td>{dateTime}</td>
                   </tr>
                 
               )}
