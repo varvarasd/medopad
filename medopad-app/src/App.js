@@ -1,19 +1,48 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import axios from 'axios';
 import './App.css';
 
 class App extends Component {
+  state = {
+    data: []
+  };
+
+  componentWillMount(){
+    let URL = 'http://localhost:3000/heartrate';
+    axios
+      .get(URL)
+      .then(res => this.setState({data: res.data}) 
+    );
+  }
+
   render() {
+    
+    const data = this.state.data;
+
+    const dataRow = data.map((res, index) => {
+              return ( 
+                
+                  <tr key={index}>
+                    <td>{res.minimum}</td>
+                    <td>{res.maximum}</td>
+                    <td>{res.meanAverage}</td>
+                    <td>{res.dateTime}</td>
+                  </tr>
+                
+              )}
+            );
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
+      <table>
+        <tbody>
+          <tr>
+            <th>Minimum</th>
+            <th>Maximum</th>
+            <th>Average</th>
+            <th>Date</th>
+          </tr>
+          {dataRow}
+        </tbody>
+      </table>
     );
   }
 }
