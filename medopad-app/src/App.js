@@ -1,6 +1,8 @@
 // @flow
+
 import React, { Component } from 'react';
 import axios from 'axios';
+import LineChartComponent from './components/line-chart-component';
 
 import './App.css';
 
@@ -34,17 +36,20 @@ class App extends Component {
               )}
             );
     return (
-      <table>
-        <tbody>
-          <tr>
-            <th>Minimum</th>
-            <th>Maximum</th>
-            <th>Average</th>
-            <th>Date</th>
-          </tr>
-          {dataRow}
-        </tbody>
-      </table>
+        <div>
+          <LineChartComponent />
+          <table>
+            <tbody>
+              <tr>
+                <th>Minimum</th>
+                <th>Maximum</th>
+                <th>Average</th>
+                <th>Date</th>
+              </tr>
+              {dataRow}
+            </tbody>
+          </table>
+        </div>
     );
   }
 }
