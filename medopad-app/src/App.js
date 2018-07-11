@@ -15,13 +15,13 @@ class App extends Component {
     let URL = 'http://localhost:3000/heartrate';
     axios
       .get(URL)
-      .then(res => this.setState({data: res.data}) 
+      .then(({data}) => this.setState({data}) 
     );
   }
 
   render() {
     
-    const data = this.state.data;
+    let {data} = this.state;
 
     const dataRow = data.map(({minimum, maximum, meanAverage, dateTime}, index) => {
               return ( 
@@ -35,17 +35,28 @@ class App extends Component {
                 
               )}
             );
+    const minimum = data.map(x => parseFloat(x.minimum))
+    const maximum = data.map(x => parseFloat(x.maximum))
+    console.log(data)
     return (
         <div>
-          <LineChartComponent />
+          <LineChartComponent 
+            maximum={maximum} 
+            minimum={minimum} 
+            size={[0,200]}
+            width={8}
+            height={500}
+            />
           <table>
-            <tbody>
+            <thead>
               <tr>
                 <th>Minimum</th>
                 <th>Maximum</th>
                 <th>Average</th>
                 <th>Date</th>
               </tr>
+            </thead>
+            <tbody>
               {dataRow}
             </tbody>
           </table>
