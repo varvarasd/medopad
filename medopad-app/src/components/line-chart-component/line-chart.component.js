@@ -173,25 +173,25 @@ class LineChartComponent extends Component {
                                     name='min'
                                     minToggle={minToggle}
                                     minimum={this.props.minimum}
-                                    styles={{'position': 'absolute', 'top': '300px', 'left': '600px'}}
+                                    styles={{'position': 'absolute', 'top': '600px', 'left': '600px'}}
                                     />
                               <ToggleComponent 
                                     name='avg'
                                     avgToggle={avgToggle}
                                     meanAverage={this.props.meanAverage}
-                                    styles={{'position': 'absolute', 'top': '300px', 'left': '550px'}}
+                                    styles={{'position': 'absolute', 'top': '600px', 'left': '550px'}}
                                     />
                               <ToggleComponent 
                                     name='max'
                                     maxToggle={maxToggle}
                                     maximum={this.props.maximum}
-                                    styles={{'position': 'absolute', 'top': '300px', 'left': '500px'}}
+                                    styles={{'position': 'absolute', 'top': '600px', 'left': '500px'}}
                                     />
                         </div>
                         <div>
-                              <svg id='svg-max' ref={nodeMax => this.nodeMax = nodeMax} width={'100%'} height={200}></svg>
-                              <svg id='svg-avg' ref={nodeAvg => this.nodeAvg = nodeAvg} width={'100%'} height={200}></svg>
-                              <svg id='svg-min' ref={nodeMin => this.nodeMin = nodeMin} width={'100%'} height={200}></svg>
+                              <svg id='svg-max' ref={nodeMax => this.nodeMax = nodeMax} width={'100%'} height={400}></svg>
+                              <svg id='svg-avg' ref={nodeAvg => this.nodeAvg = nodeAvg} width={'100%'} height={400}></svg>
+                              <svg id='svg-min' ref={nodeMin => this.nodeMin = nodeMin} width={'100%'} height={400}></svg>
                         </div>
                   </div>
             );

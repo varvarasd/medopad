@@ -47,8 +47,8 @@ class App extends Component {
             minimum={minimum}
             top={100}
             width={window.innerWidth / 95 }
-            size={[0,200]}
-            height={500}
+            size={[0,400]}
+            height={1000}
             />  
           <table>
             <thead>
