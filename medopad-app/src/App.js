@@ -44,9 +44,10 @@ class App extends Component {
           <LineChartComponent 
             maximum={maximum} 
             meanAverage={meanAverage} 
-            minimum={minimum} 
+            minimum={minimum}
+            top={100}
+            width={window.innerWidth / 95 }
             size={[0,200]}
-            width={8}
             height={500}
             />  
           <table>

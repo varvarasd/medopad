@@ -1,16 +1,16 @@
 #chart-min {
     opacity: 0.1;
-    fill: #00ffff;
+    fill: #0000ff;
 }
 
 #cvg-avg {
     opacity: 0.1;
-    fill: #ffff00;
+    fill: #00ff00;
 }
 
 #chart-max {
     opacity: 0.1;
-    fill: #ff00ff;
+    fill: #ff0000;
 }
 
 #svg-min,
@@ -18,9 +18,10 @@
 #svg-max {
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
 }
 
 .max-text {
-    font-size: 50%;
+    font-size: 30%;
+    fill: #ff0000;
 }
