@@ -36,20 +36,20 @@ class LineChartComponent extends Component {
       const yScale = scaleLinear()
          .domain([0, dataMin + param.top])
          .range([0, param.size[1]])
-   select(nodeMin)
-      .selectAll('rect')
-      .data(param.minimum)
-      .enter()
-      .append('rect')
-   
-   select(nodeMin)
-      .selectAll('rect')
-      .data(param.minimum)
-      .attr('x', (d,i) => i * param.width)
-      .attr('y', d => param.size[1] - yScale(d))
-      .attr('height', d => yScale(d))
-      .attr('width', param.width)
-      .attr('id', 'chart-min')
+      select(nodeMin)
+            .selectAll('rect')
+            .data(param.minimum)
+            .enter()
+            .append('rect')
+      
+      select(nodeMin)
+            .selectAll('rect')
+            .data(param.minimum)
+            .attr('x', (d,i) => i * param.width)
+            .attr('y', d => param.size[1] - yScale(d))
+            .attr('height', d => yScale(d))
+            .attr('width', param.width)
+            .attr('id', 'chart-min')
    }
 
 
@@ -61,20 +61,21 @@ class LineChartComponent extends Component {
       const yScale = scaleLinear()
          .domain([0, dataAvg + param.top])
          .range([0, param.size[1]])
-   select(nodeAvg)
-      .selectAll('rect')
-      .data(param.meanAverage)
-      .enter()
-      .append('rect')
-   
-   select(nodeAvg)
-      .selectAll('rect')
-      .data(param.meanAverage)
-      .attr('x', (d,i) => i * param.width)
-      .attr('y', d => param.size[1] - yScale(d))
-      .attr('height', d => yScale(d))
-      .attr('width', param.width)
-      .attr('id', 'chart-max')
+
+      select(nodeAvg)
+            .selectAll('rect')
+            .data(param.meanAverage)
+            .enter()
+            .append('rect')
+      
+      select(nodeAvg)
+            .selectAll('rect')
+            .data(param.meanAverage)
+            .attr('x', (d,i) => i * param.width)
+            .attr('y', d => param.size[1] - yScale(d))
+            .attr('height', d => yScale(d))
+            .attr('width', param.width)
+            .attr('id', 'chart-avg')
    }
 
 
@@ -100,6 +101,42 @@ class LineChartComponent extends Component {
             .attr('height', d => yScale(d))
             .attr('width', param.width)
             .attr('id', 'chart-max')
+
+      let chartDate =[];
+      this.props.dateTime.map((x, index) => {
+                  const addZero = (i) => {
+                        if (i < 10) {
+                            i = "0" + i;
+                        }
+                        return i;
+                    }
+
+                  let d = new Date(x)
+                  let  weekday = new Array(7);
+                        weekday[0] = "Sunday";
+                        weekday[1] = "Monday";
+                        weekday[2] = "Tuesday";
+                        weekday[3] = "Wednesday";
+                        weekday[4] = "Thursday";
+                        weekday[5] = "Friday";
+                        weekday[6] = "Saturday";
+
+                  let day = weekday[d.getDay()];
+
+                  let h = addZero(d.getHours());
+                  let m = addZero(d.getMinutes());
+                  let s = addZero(d.getSeconds());
+                  chartDate = day + ' - ' + h + ":" + m + ":" + s ;
+      })
+
+      select(nodeMax)
+            .selectAll('text1')
+            .data(chartDate)
+            .enter().append('text1')
+            .text(function(d) {return d})
+                              .attr('x', (d,i) => i * this.props.width)
+                              .attr('y', d => this.props.size[1] - yScale(d))
+                              .attr('class', 'max-text')
    }
 
       render() {
@@ -123,6 +160,15 @@ class LineChartComponent extends Component {
                   select(nodeMax)
                         .selectAll('rect')
                         .style('opacity', '0.8')
+                  
+                  select(nodeMax)
+                        .selectAll("date")
+                        .data(this.props.dateTime)
+                        .enter().append("date")
+                        .text(function(d) {return d})
+                              .attr('x', (d,i) => i * this.props.width)
+                              .attr('y', 1)
+                              .attr('class', 'max-text')
             }
 
             const avgToggle = () => {
@@ -165,7 +211,9 @@ class LineChartComponent extends Component {
                   select(nodeMin)
                         .selectAll('rect')
                         .style('opacity', '0.8')
+                        
             }
+
             return (
                   <div>
                         <div>
@@ -188,7 +236,7 @@ class LineChartComponent extends Component {
                                     styles={{'position': 'absolute', 'top': '600px', 'left': '500px'}}
                                     />
                         </div>
-                        <div>
+                        <div className="chart">
                               <svg id='svg-max' ref={nodeMax => this.nodeMax = nodeMax} width={'100%'} height={400}></svg>
                               <svg id='svg-avg' ref={nodeAvg => this.nodeAvg = nodeAvg} width={'100%'} height={400}></svg>
                               <svg id='svg-min' ref={nodeMin => this.nodeMin = nodeMin} width={'100%'} height={400}></svg>

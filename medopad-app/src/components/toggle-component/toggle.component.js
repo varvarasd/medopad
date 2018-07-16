@@ -29,7 +29,7 @@ class ToggleComponent extends Component {
     //           .attr('class', 'max-text')
     // }
     render(){
-        console.log(this.props)
+        //console.log(this.props)
         return (
                 <button 
                     onClick={this.props.minToggle || this.props.avgToggle || this.props.maxToggle } 

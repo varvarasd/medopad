@@ -38,13 +38,15 @@ class App extends Component {
     const minimum = data.map(x => parseFloat(x.minimum))
     const meanAverage = data.map(x => parseFloat(x.meanAverage))
     const maximum = data.map(x => parseFloat(x.maximum))
-    console.log(data)
+    const dateTime = data.map(x => x.dateTime)
+    
     return (
         <div>
           <LineChartComponent 
             maximum={maximum} 
             meanAverage={meanAverage} 
             minimum={minimum}
+            dateTime={dateTime}
             top={100}
             width={window.innerWidth / 95 }
             size={[0,400]}

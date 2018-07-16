@@ -1,16 +1,19 @@
 #chart-min {
-    opacity: 0.1;
-    fill: #0000ff;
+    fill: lightblue;
 }
 
-#cvg-avg {
-    opacity: 0.1;
+#chart-avg {
     fill: #00ff00;
 }
 
 #chart-max {
-    opacity: 0.1;
     fill: #ff0000;
+}
+
+#chart-max,
+#chart-avg,
+#chart-min {
+    opacity: 0.1;
 }
 
 #svg-min,
@@ -21,7 +24,11 @@
     right: 0;
 }
 
-.max-text {
-    font-size: 30%;
-    fill: #ff0000;
+
+
+.max-text,
+.min-text,
+.avg-text {
+    font-size: 70%;
+    opacity: 1;
 }
